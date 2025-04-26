@@ -626,8 +626,28 @@ footer .container {
         font-size: 45px;
     }
 
+    .statistic {
+        height: auto;
+        padding: 40px 0;
+        gap: 30px;
+    }
+
+    .statistic .vertical-line {
+        display: none;
+    }
+
+    .statistic-text {
+        width: 50%;
+        justify-content: flex-start;
+    }
+
+    .stat_text {
+        text-align: left;
+    }
+
     .illustr2 {
-        margin-right: 30px;
+        margin: 20px 0;
+        width: 100%;
     }
 
     .network img {
@@ -704,6 +724,17 @@ footer .container {
         width: 90%;
     }
 
+    h1 {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .statistic {
         display: flex;
         flex-direction: column;
@@ -719,8 +750,54 @@ footer .container {
         margin: 0 auto;
     }
 
+    .functions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
     .functions li {
-        justify-content: center;
+        width: 50%;
+        justify-content: flex-start;
+    }
+
+    .provide_text {
+        margin-bottom: 20px;
+    }
+
+    .box_plan {
+        min-height: 0px;
+    }
+
+    .box_plan .box_footer {
+        margin-top: 20px;
+    }
+
+    .loc {
+        margin-bottom: 50px;
+    }
+
+    .user_reveiw {
+        width: 100%;
+    }
+
+    .subscribe_banner {
+        padding: 30px 20px;
+    }
+
+
+    footer .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer li {
+        text-align: center;
+    }
+
+    .right {
+        gap: 50px;
     }
 
     .package {
